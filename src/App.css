@@ -1,0 +1,35 @@
+#body{
+  background-color: #007bff;
+  height:600px;
+  margin: 40px 100px;
+  padding: 30px 35px;
+
+}
+.card{
+  position: relative;
+  top:50px;
+  padding: 10px;
+  width:400px;
+}
+.card:hover{
+  position: relative;
+  top:40px;
+}
+ul li{
+  list-style: none;
+  text-align: left;
+  font-size: large;
+  padding: 10px;
+}
+ul li:before{
+ content: "\2714\0020";;
+}
+Button{
+ 
+  width:100%
+}
+ul li.cross:before{
+  content: '\0078  ';
+  color:#bec6cf;
+  font-size: 18px;
+}
