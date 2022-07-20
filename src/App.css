@@ -1,19 +1,27 @@
 #body{
-  background-color: #007bff;
-  height:600px;
-  margin: 40px 100px;
-  padding: 30px 35px;
 
 }
-.card{
-  position: relative;
-  top:50px;
-  padding: 10px;
-  width:400px;
+
+#container{
+  margin: auto;
+  background-color: #007bff;
+  width:80%;
+  min-Width: 300px;
+  
+
+  margin-top: 50px;
+ 
+  /* margin: 20px 50px;
+  padding: 30px 35px; */
 }
+.card{
+ margin: auto;
+  padding: 30px 20px;
+
+  }
 .card:hover{
   position: relative;
-  top:40px;
+  top:-5px;
 }
 ul li{
   list-style: none;
@@ -32,4 +40,7 @@ ul li.cross:before{
   content: '\0078  ';
   color:#bec6cf;
   font-size: 18px;
+}
+ul li.cross{
+  color:#bec6cf;
 }

@@ -27,13 +27,13 @@ function PricingTable() {
      
 
     return (
-      <div>
-        <h2>Pricing Table</h2>
-        <div id="body">
+      <div id='body'>
+        {/* <h2>Pricing Table</h2> */}
+        <div id="container">
 
         <Box sx={{ flexGrow: 1 }}>
       <Grid container spacing={2}>
-        <Grid item class="card" xs={4}>
+        <Grid item class="card" xs={4} md={8} sm={12} >
           <Item> <Card sx={{ minWidth: 275 }}>
       <CardContent>
         <Typography sx={{ fontSize: 14 }} color="text.secondary" gutterBottom>
@@ -59,7 +59,7 @@ function PricingTable() {
       </CardActions>
     </Card></Item>
         </Grid>
-        <Grid item class="card" xs={4}>
+        <Grid item class="card" xs={4} md={8} sm={12}>
           <Item> <Card sx={{ minWidth: 275 }}>
       <CardContent>
         <Typography sx={{ fontSize: 14 }} color="text.secondary" gutterBottom>
@@ -85,7 +85,7 @@ function PricingTable() {
       </CardActions>
     </Card></Item>
         </Grid>
-        <Grid item xs={4} class="card">
+        <Grid item xs={4} md={8} sm={12}  class="card">
           <Item> <Card sx={{ minWidth: 275 }}>
       <CardContent>
         <Typography sx={{ fontSize: 14 }} color="text.secondary" gutterBottom>
